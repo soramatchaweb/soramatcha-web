@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import localFont from 'next/font/local'
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
@@ -13,10 +13,13 @@ export const metadata: Metadata = {
   description: "The fastest way to build apps with Next.js and Supabase",
 };
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  display: "swap",
-  subsets: ["latin"],
+const garet = localFont({
+  src: [
+    { path: '../assets/fonts/Garet-Book.ttf', weight: '400', style: 'normal' },
+    { path: '../assets/fonts/Garet-Heavy.ttf', weight: '700', style: 'normal' },
+  ],
+  variable: '--font-garet',
+  display: 'swap',
 });
 
 export default function RootLayout({
@@ -25,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.className} antialiased`}>
+    <html lang="en" className={garet.variable} suppressHydrationWarning>
+      <body className={`antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
