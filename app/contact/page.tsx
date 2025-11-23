@@ -2,11 +2,10 @@ import { Navbar } from '../../components/navbar'
 import Icon  from '../../components/icon'
 
 export default function ContactPage() {
-    const username = 'your_username'
+    const username = process.env.NEXT_PUBLIC_INSTAGRAM_USERNAME || 'your_username'
+    const businessNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '0000000000'
     
     const text = 'Hello, I would like to get in touch with you.'
-    
-    const businessNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '0000000000'
     const phoneNumber = businessNumber.replace(/^0/, '')
 
     const igUrl = `https://instagram.com/${username}`
