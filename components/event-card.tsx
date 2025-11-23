@@ -11,7 +11,7 @@ interface EventCardProps {
 export function EventCard({ id, name, description, location, imagurl }: EventCardProps) {
   
   function openWhatsApp() {
-    const businessNumber = '085106830306'
+    const businessNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '0000000000'
     const phoneNumber = businessNumber.replace(/^0/, '')
 
     // text for whatsapp message
@@ -47,7 +47,7 @@ export function EventCard({ id, name, description, location, imagurl }: EventCar
             <div className="flex justify-start sm:justify-end">
               <button
                 onClick={openWhatsApp}
-                className="bg-pastel-orange text-gray-orange px-4 py-2 rounded-md font-semibold uppercase"
+                className="w-full bg-pastel-orange text-gray-orange  py-2 rounded-md font-semibold uppercase"
               >
                 Reservation
               </button>

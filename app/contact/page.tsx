@@ -3,11 +3,13 @@ import Icon  from '../../components/icon'
 
 export default function ContactPage() {
     const username = 'your_username'
-    const number = '085106830306'
+    
     const text = 'Hello, I would like to get in touch with you.'
     
+    const businessNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '0000000000'
+    const phoneNumber = businessNumber.replace(/^0/, '')
+
     const igUrl = `https://instagram.com/${username}`
-    const phoneNumber = number.replace(/^0/, '') // remove leading zero if present  
     const encodedText = encodeURIComponent(text)
     const waUrl = `https://wa.me/62${phoneNumber}?text=${encodedText}`
     return (
