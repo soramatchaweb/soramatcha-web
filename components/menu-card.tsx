@@ -1,5 +1,8 @@
 "use client"
 
+import React, { useState } from 'react'
+import { MenuModal } from './menu-modal'
+
 
 interface MenuCardProps {
   id: string
@@ -21,16 +24,8 @@ function formatPrice(value?: number) {
 }
 
 export function MenuCard({ id, name, description, price, img_url }: MenuCardProps) {
-  function openWhatsApp() {
-    const businessNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '0000000000'
-    const phoneNumber = businessNumber.replace(/^0/, '')
+  const [open, setOpen] = useState(false)
 
-    // text for whatsapp message
-    const text = `Halo, saya mau membeli "${name}". Mohon informasinya tentang ketersediaan dan cara pembayaran.`
-    const waUrl = `https://wa.me/62${phoneNumber}?text=${encodeURIComponent(text)}`
-    window.open(waUrl, '_blank')
-  }
-  
   return (
     <div className="w-full bg-light-orange rounded-lg p-3 sm:p-4 shadow-sm">
       <div className="bg-white rounded-md overflow-hidden shadow-inner aspect-square">
@@ -44,18 +39,19 @@ export function MenuCard({ id, name, description, price, img_url }: MenuCardProp
 
       <div className="mt-3">
         <h3 className="text-base font-semibold text-gray-orange uppercase truncate">{name}</h3>
-        <p className="text-sm sm:text-xs text-gray-orange mt-1 line-clamp-2">{description}</p>
+        <p className="text-sm sm:text-xs text-gray-orange mt-1 line-clamp-2 overflow-auto">{description}</p>
 
         <div className="mt-3">
           <div className="w-full text-right text-sm sm:text-base font-bold text-gray-orange normal-case">{formatPrice(price)}</div>
         </div>
 
             <button
-              onClick={openWhatsApp}
+              onClick={() => setOpen(true)}
               className="w-full bg-pastel-orange text-gray-orange py-2 rounded-md font-semibold uppercase text-center mt-3"
             >
               BUY
             </button>
+            <MenuModal open={open} onClose={() => setOpen(false)} name={name} price={price} description={description} img_url={img_url} />
       </div>
     </div>
   )
