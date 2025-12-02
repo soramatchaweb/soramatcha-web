@@ -15,7 +15,7 @@ export function MenuModal({ open, onClose, name, price, description, img_url }: 
   function sendWhatsapp() {
     const businessNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '0000000000'
     const phoneNumber = businessNumber.replace(/^0/, '')
-    const message = `Halo, saya mau membeli "${name}". Mohon informasinya tentang ketersediaan dan cara pembayaran.`
+    const message = `Hello, I would like to purchase "${name}". Could you please provide information about its availability and the payment methods?`
     const waUrl = `https://wa.me/62${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(waUrl, '_blank')
     onClose()

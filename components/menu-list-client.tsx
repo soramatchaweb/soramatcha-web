@@ -75,25 +75,29 @@ export default function MenuListClient() {
     <>
       {errorMessage && <ErrorModal message={errorMessage} onClose={() => setErrorMessage(null)} duration={0} />}
 
-      <div className="space-y-6">
-        {sortedCategories.map((cat) => (
-          <section key={cat}>
-            <h2 className="text-2xl font-semibold  uppercase mb-3">{cat}</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
-              {groups[cat].map((it) => (
-                <MenuCard
-                  key={it.id}
-                  id={it.id}
-                  name={it.name}
-                  description={it.description ?? ''}
-                  price={Number(it.price)}
-                  img_url={it.img_url}
-                />
-              ))}
-            </div>
-          </section>
-        ))}
-      </div>
+      {items.length === 0 ? (
+        <div className="py-12 text-center">No menu found.</div>
+      ) : (
+        <div className="space-y-6">
+          {sortedCategories.map((cat) => (
+            <section key={cat}>
+              <h2 className="text-2xl font-semibold  uppercase mb-3">{cat}</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
+                {groups[cat].map((it) => (
+                  <MenuCard
+                    key={it.id}
+                    id={it.id}
+                    name={it.name}
+                    description={it.description ?? ''}
+                    price={Number(it.price)}
+                    img_url={it.img_url}
+                  />
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      )}
     </>
   )
 }

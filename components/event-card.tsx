@@ -15,7 +15,7 @@ export function EventCard({ id, name, description, location, imagurl }: EventCar
     const phoneNumber = businessNumber.replace(/^0/, '')
 
     // text for whatsapp message
-    const text = `Halo, saya mau reservasi untuk event "${name}". Mohon informasinya tentang ketersediaan dan cara pembayaran.`
+    const text = `Hello, I would like to make a reservation for the event "${name}". Could you please provide information about its availability and the payment methods?`
     const waUrl = `https://wa.me/62${phoneNumber}?text=${encodeURIComponent(text)}`
     window.open(waUrl, '_blank')
   }

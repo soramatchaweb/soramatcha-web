@@ -32,46 +32,64 @@ export default function HomePage() {
                                     preview={
                                         <div className="uppercase tracking-widest text-gray-orange text-base md:text-lg leading-relaxed line-clamp-4 md:line-clamp-6 text-justify">
                                             <p >
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque est, dapibus
-                                                ac placerat vitae, pretium sed lacus. Duis non vestibulum nunc. Aliquam eget
-                                                lorem vel libero vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque est, dapibus
-                                                ac placerat vitae, pretium sed lacus. Duis non vestibulum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque est, dapibus
-                                                ac placerat vitae, pretium sed lacus. Duis non vestibulum nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque est, dapibus
-                                                ac placerat vitae, pretium sed lacus. Duis non vestibulum nunc.
+                                                The name Sora Matcha is inspired by the Japanese word “sora” (空), which means “sky.” Just like the sky, Sora Matcha represents clarity, calm, and endless possibilities. It reflects our vision of 
+                                                creating a matcha experience that feels light, pure, and intentional—something that lifts your day, grounds your spirit, and gives you a moment to breathe. Every cup is a reminder to slow down and 
+                                                savor simplicity, crafted with the finest ceremonial grade matcha and a personal touch that makes it uniquely ours.
                                             </p>
                                         </div>
                                     }
                                     content={                                        
                                         <div className="uppercase tracking-widest text-gray-orange text-base md:text-lg leading-relaxed">
                                             <p >
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida faucibus tristique. Duis ac lacus fringilla, tincidunt ex ac, lobortis dolor. Cras sit amet nunc sit amet felis egestas 
-                                                facilisis. Nunc fermentum lacinia orci, in luctus tellus efficitur in. Nullam eleifend eleifend convallis. Sed maximus tortor elit, vel efficitur orci dapibus a. Nunc ultricies mollis magna, a 
-                                                scelerisque mauris scelerisque nec. Fusce luctus sed mauris non malesuada. Curabitur sed urna eu dui egestas feugiat vel vel dolor                                            
+                                                The name Sora Matcha is inspired by the Japanese word “sora” (空), which means “sky.” Just like the sky, Sora Matcha represents clarity, calm, and endless possibilities. It reflects our vision of 
+                                                creating a matcha experience that feels light, pure, and intentional—something that lifts your day, grounds your spirit, and gives you a moment to breathe. Every cup is a reminder to slow down and 
+                                                savor simplicity, crafted with the finest ceremonial grade matcha and a personal touch that makes it uniquely ours.
                                                 <br />
                                                 <br />
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida faucibus tristique. Duis ac lacus fringilla, tincidunt ex ac, lobortis dolor. Cras sit amet nunc sit amet felis egestas 
-                                                facilisis. Nunc fermentum lacinia orci, in luctus tellus efficitur in. Nullam eleifend eleifend convallis. Sed maximus tortor elit, vel efficitur orci dapibus a. Nunc ultricies mollis magna, a 
-                                                scelerisque mauris scelerisque nec. Fusce luctus sed mauris non malesuada. Curabitur sed urna eu dui egestas feugiat vel vel dolor
+                                                Introducing Sora Matcha, established in May 2025, born from a deep passion for matcha that soon blossomed into a thoughtful business. What began as a personal love for this timeless green elixir 
+                                                has grown into a mission to redefine what good matcha truly means—elevated with a signature twist that reflects our unique taste and values. At Sora Matcha, we are committed to using only ceremonial 
+                                                grade matcha, ensuring each cup delivers purity, richness, and a moment of calm in every sip.
                                                 <br />
                                                 <br />
-                                                Nulla eu nunc sit amet est vehicula vulputate. Fusce mattis ligula erat, ut cursus est vehicula a. Suspendisse potenti. Phasellus tincidunt at neque in hendrerit. Curabitur porttitor tincidunt enim 
-                                                fermentum ornare. Sed at ipsum ornare ipsum tristique dictum. Pellentesque dapibus libero sed nulla fringilla gravida. Morbi ligula magna, ornare vel arcu eu, imperdiet blandit mauris. Pellentesque 
-                                                ullamcorper mi eu arcu consectetur, at interdum risus porttitor. Fusce tristique nibh sit amet scelerisque lacinia. Sed dignissim sodales sem sed varius. Sed nec sollicitudin diam.
+                                                Sora Matcha was established in May 2025 by two good friends who shared a deep love for matcha and a dream to turn that passion into something meaningful. What started as a personal ritual quickly 
+                                                became a shared journey—to craft a brand that redefines what good matcha means. At Sora Matcha, we’re dedicated to using only ceremonial grade matcha, offering not just quality but an experience 
+                                                rooted in authenticity, calm, and connection. With a touch of our own personality in every blend, we hope to bring moments of joy and clarity—just like the name Sora, which means “sky”—to everyone 
+                                                who takes a sip.
                                                 <br />
                                                 <br />                                            
-                                                Nullam at tincidunt ante. Nunc nunc metus, rhoncus sed urna et, dapibus pellentesque erat. Integer sem urna, imperdiet nec magna sed, bibendum dictum enim. Praesent iaculis quis odio eu vehicula. 
-                                                Sed blandit placerat felis nec tempor. Donec sollicitudin et velit quis volutpat. Nullam posuere feugiat augue non scelerisque. Ut ut dui at ligula dapibus venenatis. Praesent dapibus malesuada eros, 
-                                                a posuere dolor luctus id. Nunc et tempus velit. Aliquam in consequat diam, quis vulputate sem. Vivamus justo sem, hendrerit mattis leo ut, suscipit ullamcorper sapien. Sed ut lectus ac quam tristique 
-                                                ultrices a at lectus. Morbi at ultricies diam.
+                                                Meet Chitra—our co-founder whose roots in the F&B industry run deep, with over 10 years of experience. A true expert in both coffee and food, Chitra has not only mastered the craft behind the counter 
+                                                but also played a key role in shaping the café scene as a trusted consultant for several establishments. She is also the founder behind beloved cafés like De Mier, Konego, and Akaia, bringing a wealth 
+                                                of creativity, precision, and industry insight to everything we do at Sora Matcha.
                                                 <br />
                                                 <br />
-                                                Vestibulum vitae est tortor. Sed bibendum quam sem. Pellentesque nec blandit erat. Ut in laoreet est. Duis auctor interdum eros, eget tristique erat tincidunt sed. In maximus sem non orci lacinia, 
-                                                ornare vulputate erat cursus. Aliquam erat volutpat. Morbi varius posuere magna, ac imperdiet odio gravida at. Curabitur ultricies pellentesque lorem, in aliquet diam imperdiet pharetra. Cras faucibus 
-                                                venenatis ullamcorper. Duis accumsan justo id scelerisque faucibus. Pellentesque sagittis id nisi non rutrum.
+                                                Natasha, a devoted housewife with a love for creativity, finds joy in crafting food and drinks that feel both thoughtful and comforting. Her passion for matcha began when she had to give up coffee due 
+                                                to acid reflux—leading her to discover the calm, nourishing qualities of matcha that quickly became a daily ritual. Grateful for her 9-year friendship with Chitra, the two often bonded over shared ideas 
+                                                and dreams. What started as casual conversations grew into a real business built on trust, passion, and purpose—now brought to life through Sora Matcha.
                                                 <br />
                                                 <br />
-                                                Cras velit risus, malesuada sit amet tincidunt et, hendrerit nec ex. Mauris consequat ipsum turpis. Sed imperdiet nisl a est aliquet pretium. Vivamus luctus auctor finibus. Curabitur rhoncus maximus ornare. 
-                                                Pellentesque tempor ac ante eleifend tempus. Sed sit amet lorem libero. Proin vel diam id sem dapibus imperdiet.
+                                                At Sora Matcha, we exclusively use organic ceremonial grade matcha powder sourced directly from Kagoshima, Japan. We’re here to break the common misconception that matcha tastes like grass—because when 
+                                                it’s truly high quality, it’s smooth, rich, and naturally sweet. While most matcha lattes on the market are made with culinary or premium grade powder, we’ve chosen a different path. We’re not here to 
+                                                follow trends—we’re here to raise the bar and redefine the experience. This isn’t just matcha, it’s our way of elevating the game.
+                                                <br />
+                                                <br />
+                                                At Sora Matcha, our products are crafted in small, thoughtful batches. Each week, we offer four signature flavors—White Chocolate Matcha, Strawberry Matcha, Matcha Latte, and Oat Matcha Latte—alongside a 
+                                                rotating weekly specialty such as Sakura Matcha, Thai Tea Matcha, or Yuzu Matcha. We produce only 100 to 200 bottles per week, keeping it intentionally limited due to the rarity and quality of our 
+                                                ceremonial-grade powder.
+                                                <br />
+                                                <br />
+                                                Beyond bottles, we also bring Sora Matcha to life through our event booths. In just one month, we’ve served at two events—and to our surprise and delight, it’s quickly become the crowd’s favorite. 
+                                                Each time, we’ve sold out completely, with not a single cup left to spare. And this is just the beginning—many more exciting events are on the horizon.
+                                                <br />
+                                                <br />
+                                                Our Sora Matcha booth is designed with a minimalist and elegant aesthetic, making it the perfect fit for any occasion—from weddings and corporate events to birthday parties and family gatherings. 
+                                                More than just a beautiful setup, our booth offers a refreshing and healthy drink option that’s enjoyable for all ages. Whether it’s kids sipping on strawberry matcha or adults savoring a creamy 
+                                                oat latte, there’s something for everyone to enjoy. At each event, we typically have 2–3 skilled matcharistas in action, serving each cup fresh and with care—bringing both flavor and experience 
+                                                to your special day.
+                                                <br />
+                                                <br />
+                                                In addition to our bottled drinks and event booths, Sora Matcha also offers our signature matcha powders for sale. Sourced directly from Kagoshima and made from organic ceremonial grade leaves, 
+                                                our powders are perfect for those who want to bring the Sora experience into their own homes. Whether you’re whisking up a morning ritual or experimenting with matcha in your bakes, our premium-grade 
+                                                powder delivers the same smooth, rich, and balanced flavor we’re proud to serve. It’s the same matcha we use in all our drinks—pure, vibrant, and never grassy.
                                             </p>
                                         </div>
                                     }
@@ -86,46 +104,28 @@ export default function HomePage() {
                                     preview={
                                         <div className="uppercase tracking-widest text-gray-orange text-base md:text-lg leading-relaxed line-clamp-4 md:line-clamp-6 text-justify">
                                             <p >
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque est, dapibus
-                                                ac placerat vitae, pretium sed lacus. Duis non vestibulum nunc. Aliquam eget
-                                                lorem vel libero vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque est, dapibus
-                                                ac placerat vitae, pretium sed lacus. Duis non vestibulum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque est, dapibus
-                                                ac placerat vitae, pretium sed lacus. Duis non vestibulum nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque est, dapibus
-                                                ac placerat vitae, pretium sed lacus. Duis non vestibulum nunc.
+                                                Lady Savora is a refined pop-up café born from the collaboration of Sora, Savory, and Lady Goh. Beyond offering artisanal matcha, decadent cakes, and wholesome bakes, we are a space dedicated to 
+                                                mindful living — hosting curated experiences from sports gatherings to art workshops and cooking classes, all designed to enrich the way we connect, create, and thrive
+                                                <br />
+                                                <br />
+                                                This pop up store is set in a private garage, it offers a unique experience where guests can dine beside a curated collection of beautiful cars.
+                                                The space embraces a minimalist aesthetic, softened with natural textures and wheat accents for a warm, organic feel.
+
                                             </p>
                                         </div>
                                     }
                                     content={                                        
                                         <div className="uppercase tracking-widest text-gray-orange text-base md:text-lg leading-relaxed">
                                             <p >
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida faucibus tristique. Duis ac lacus fringilla, tincidunt ex ac, lobortis dolor. Cras sit amet nunc sit amet felis egestas 
-                                                facilisis. Nunc fermentum lacinia orci, in luctus tellus efficitur in. Nullam eleifend eleifend convallis. Sed maximus tortor elit, vel efficitur orci dapibus a. Nunc ultricies mollis magna, a 
-                                                scelerisque mauris scelerisque nec. Fusce luctus sed mauris non malesuada. Curabitur sed urna eu dui egestas feugiat vel vel dolor                                            
+                                                Lady Savora is a refined pop-up café born from the collaboration of Sora, Savory, and Lady Goh. Beyond offering artisanal matcha, decadent cakes, and wholesome bakes, we are a space dedicated to 
+                                                mindful living — hosting curated experiences from sports gatherings to art workshops and cooking classes, all designed to enrich the way we connect, create, and thrive.
                                                 <br />
                                                 <br />
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida faucibus tristique. Duis ac lacus fringilla, tincidunt ex ac, lobortis dolor. Cras sit amet nunc sit amet felis egestas 
-                                                facilisis. Nunc fermentum lacinia orci, in luctus tellus efficitur in. Nullam eleifend eleifend convallis. Sed maximus tortor elit, vel efficitur orci dapibus a. Nunc ultricies mollis magna, a 
-                                                scelerisque mauris scelerisque nec. Fusce luctus sed mauris non malesuada. Curabitur sed urna eu dui egestas feugiat vel vel dolor
+                                                This pop up store is set in a private garage, it offers a unique experience where guests can dine beside a curated collection of beautiful cars.
+                                                The space embraces a minimalist aesthetic, softened with natural textures and wheat accents for a warm, organic feel.
                                                 <br />
                                                 <br />
-                                                Nulla eu nunc sit amet est vehicula vulputate. Fusce mattis ligula erat, ut cursus est vehicula a. Suspendisse potenti. Phasellus tincidunt at neque in hendrerit. Curabitur porttitor tincidunt enim 
-                                                fermentum ornare. Sed at ipsum ornare ipsum tristique dictum. Pellentesque dapibus libero sed nulla fringilla gravida. Morbi ligula magna, ornare vel arcu eu, imperdiet blandit mauris. Pellentesque 
-                                                ullamcorper mi eu arcu consectetur, at interdum risus porttitor. Fusce tristique nibh sit amet scelerisque lacinia. Sed dignissim sodales sem sed varius. Sed nec sollicitudin diam.
-                                                <br />
-                                                <br />                                            
-                                                Nullam at tincidunt ante. Nunc nunc metus, rhoncus sed urna et, dapibus pellentesque erat. Integer sem urna, imperdiet nec magna sed, bibendum dictum enim. Praesent iaculis quis odio eu vehicula. 
-                                                Sed blandit placerat felis nec tempor. Donec sollicitudin et velit quis volutpat. Nullam posuere feugiat augue non scelerisque. Ut ut dui at ligula dapibus venenatis. Praesent dapibus malesuada eros, 
-                                                a posuere dolor luctus id. Nunc et tempus velit. Aliquam in consequat diam, quis vulputate sem. Vivamus justo sem, hendrerit mattis leo ut, suscipit ullamcorper sapien. Sed ut lectus ac quam tristique 
-                                                ultrices a at lectus. Morbi at ultricies diam.
-                                                <br />
-                                                <br />
-                                                Vestibulum vitae est tortor. Sed bibendum quam sem. Pellentesque nec blandit erat. Ut in laoreet est. Duis auctor interdum eros, eget tristique erat tincidunt sed. In maximus sem non orci lacinia, 
-                                                ornare vulputate erat cursus. Aliquam erat volutpat. Morbi varius posuere magna, ac imperdiet odio gravida at. Curabitur ultricies pellentesque lorem, in aliquet diam imperdiet pharetra. Cras faucibus 
-                                                venenatis ullamcorper. Duis accumsan justo id scelerisque faucibus. Pellentesque sagittis id nisi non rutrum.
-                                                <br />
-                                                <br />
-                                                Cras velit risus, malesuada sit amet tincidunt et, hendrerit nec ex. Mauris consequat ipsum turpis. Sed imperdiet nisl a est aliquet pretium. Vivamus luctus auctor finibus. Curabitur rhoncus maximus ornare. 
-                                                Pellentesque tempor ac ante eleifend tempus. Sed sit amet lorem libero. Proin vel diam id sem dapibus imperdiet.
+                                                While wheat may not be tied directly to matcha or cakes, its presence in our space symbolizes simplicity, warmth, and a return to nature — reflecting the wholesome, mindful lifestyle that Lady Savora embodies.
                                             </p>
                                         </div>
                                     }
