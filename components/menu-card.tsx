@@ -27,32 +27,37 @@ export function MenuCard({ id, name, description, price, img_url }: MenuCardProp
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="w-full bg-light-orange rounded-lg p-3 sm:p-4 shadow-sm">
-      <div className="bg-white rounded-md overflow-hidden shadow-inner aspect-square">
-        {img_url ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img src={img_url} alt={name} className="w-full h-full object-cover" />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-sm text-gray-orange">No image</div>
-        )}
-      </div>
-
-      <div className="mt-3">
-        <h3 className="text-base font-semibold text-gray-orange uppercase truncate">{name}</h3>
-        <p className="text-sm sm:text-xs text-gray-orange mt-1 line-clamp-2 overflow-auto">{description}</p>
-
-        <div className="mt-3">
-          <div className="w-full text-right text-sm sm:text-base font-bold text-gray-orange normal-case">{formatPrice(price)}</div>
+    <>
+      <div className="w-full bg-light-orange rounded-lg p-3 sm:p-4 shadow-sm cursor-pointer" onClick={() => setOpen(true)}>
+        <div className="bg-white rounded-md overflow-hidden shadow-inner aspect-square">
+          {img_url ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={img_url} alt={name} className="w-full h-full object-cover" />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center text-sm text-gray-orange">No image</div>
+          )}
         </div>
 
-            <button
-              onClick={() => setOpen(true)}
-              className="w-full bg-pastel-orange text-gray-orange py-2 rounded-md font-semibold uppercase text-center mt-3"
-            >
-              BUY
-            </button>
-            <MenuModal open={open} onClose={() => setOpen(false)} name={name} price={price} description={description} img_url={img_url} />
+        <div className="mt-3">
+          <h3 className="text-base font-semibold text-gray-orange uppercase truncate">{name}</h3>
+          <p className="text-sm sm:text-xs text-gray-orange mt-1 line-clamp-2 overflow-auto">{description}</p>
+
+          <div className="mt-3">
+            <div className="w-full text-right text-sm sm:text-base font-bold text-gray-orange normal-case">{formatPrice(price)}</div>
+          </div>
+
+          <button
+            onClick={(e) => {
+              e.stopPropagation()
+              setOpen(true)
+            }}
+            className="w-full bg-pastel-orange text-gray-orange py-2 rounded-md font-semibold uppercase text-center mt-3"
+          >
+            BUY
+          </button>
+        </div>
       </div>
-    </div>
+      <MenuModal open={open} onClose={() => setOpen(false)} name={name} price={price} description={description} img_url={img_url} />
+    </>
   )
 }
