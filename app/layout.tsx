@@ -10,12 +10,12 @@ const defaultUrl = process.env.VERCEL_URL
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Soramatcha",
-  description: "The name Sora Matcha is inspired by the Japanese word “sora” (空), which means “sky.” Just like the sky, Sora Matcha represents clarity, calm, and endless possibilities. It reflects our vision of creating a matcha experience that feels light, pure, and intentional—something that lifts your day, grounds your spirit, and gives you a moment to breathe. Every cup is a reminder to slow down and savor simplicity, crafted with the finest ceremonial grade matcha and a personal touch that makes it uniquely ours.",
+  description: "Sora Matcha was born out of a shared passion between two longtime friends who turned their love for matcha into something more. Founded in May 2025, our mission is simple: to redefine what good matcha tastes like—with purity, purpose, and a personal touch.",
   robots: "index, follow",
   openGraph: {
     title: "Soramatcha",
     description:
-      "The name Sora Matcha is inspired by the Japanese word “sora” (空), which means “sky.” Just like the sky, Sora Matcha represents clarity, calm, and endless possibilities. It reflects our vision of creating a matcha experience that feels light, pure, and intentional—something that lifts your day, grounds your spirit, and gives you a moment to breathe. Every cup is a reminder to slow down and savor simplicity, crafted with the finest ceremonial grade matcha and a personal touch that makes it uniquely ours.",
+      "Sora Matcha was born out of a shared passion between two longtime friends who turned their love for matcha into something more. Founded in May 2025, our mission is simple: to redefine what good matcha tastes like—with purity, purpose, and a personal touch.",
     url: defaultUrl,
     siteName: "Soramatcha",
     images: [
