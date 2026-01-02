@@ -12,6 +12,16 @@ export const metadata: Metadata = {
   title: "Soramatcha",
   description: "Sora Matcha was born out of a shared passion between two longtime friends who turned their love for matcha into something more. Founded in May 2025, our mission is simple: to redefine what good matcha tastes like—with purity, purpose, and a personal touch.",
   robots: "index, follow",
+  keywords: [
+    "soramatcha",
+    "sora matcha",
+    "matcha",
+    "teh hijau",
+    "teh hijau bubuk",
+    "matcha powder",
+    "minuman matcha",
+    "soramatcha indonesia",
+  ],
   openGraph: {
     title: "Soramatcha",
     description:
