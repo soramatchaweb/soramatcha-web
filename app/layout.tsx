@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Soramatcha",
     images: [
       {
-        url: `https://soramatcha-web.netlify.app/og.jpg`,
+        url: `${defaultUrl}/og.jpg`,
         width: 1200,
         height: 630,
         alt: "Soramatcha",
